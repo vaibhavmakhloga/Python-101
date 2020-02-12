@@ -1,4 +1,4 @@
-def ncr(n, r):
+    def ncr(n, r):
     return int((fact(n) / (fact(r)
                            * fact(n - r))))
 
